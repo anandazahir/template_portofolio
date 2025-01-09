@@ -38,6 +38,7 @@ export default function Contact() {
       title: "Message sent!",
       description: "We'll get back to you soon.",
     });
+    console.log("Form data submitted:", data);
   };
 
   return (
